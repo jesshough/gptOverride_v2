@@ -12,7 +12,7 @@ The integration of AI chatbots is becoming more prevalent across industries, par
 ### Project Goals:
 - Develop an ML model that analyzes GPT's responses and provides _(or suggests?)_ overrides when necessary.
 - Incorporate contextual understanding and field-specific knowledge to enhance GPT's NL processing abilities.
-- Design a user-friendly (interface or integration method) to incorporate within GPT's response system. _(can I call GPT from my own code/website? What options do I have for this?)_
+- Design a user-friendly (interface or integration method) to incorporate within GPT's response system. _(can I call GPT from my own code/website (localhost?)? What options do I have for this?)_
 - Validate the effectiveness of the override system through testing.
 
 ### Contributors:
