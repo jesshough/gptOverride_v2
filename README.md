@@ -1,7 +1,7 @@
 # ChatGPT Override Project
 
-### Overview & Goal:
-This project aims to enhance GPT capabilities by providing the ability to override responses when they are contextually inaccurate. The goal is to provide a solution for situations where a user's input context may be open to interpretation, potentially resulting in responses from GPT that are ambiguous, misleading, or contextually incorrect. 
+### Overview & Purpose:
+The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While GPT provides impressive responses, it may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. This project aims to address this issue by providing the ability to override potentially off-topic GPT responses, improving user experience and trust in AI conversational platforms.
 
 ### Use Case Examples:
 - **Customer Support:** To ensure accurate and relevant responses.
@@ -10,13 +10,10 @@ This project aims to enhance GPT capabilities by providing the ability to overri
 - **Company Knowledge Bases:** Prevent responses referencing outdated or unrelated external information when inquiring about internal company topics.
 
 ### Project Goals:
-- Develop an ML model that analyzes ChatGPT's responses and provides overrides when necessary. _(should this be in the form of a suggestion or should it just make a call?)_
+- Develop an ML model that analyzes GPT's responses and provides _(or suggests?)_ overrides when necessary.
 - Incorporate contextual understanding and field-specific knowledge to enhance GPT's NL processing abilities.
-- Design a user-friendly interface/integration mechanism for users to leverage within ChatGPT's response generation pipeline. _(can I call GPT from my own code/website? What options do I have for this?)_
-- Validate the effectiveness of the override system through thorough testing.
-
-### Purpose:
-The use of AI conversation agents is increasing in various fields, commonly in the forms of customer support, virtual assistance, and knowledge management. While GPT provides impressive responses, it may occasionally produce ones that are contextually incorrect or irrelevant, leading to user frustration or misinformation. By developing a system to override GPT's responses when necessary, we can improve the overall user experience and trustworthiness of AI-driven conversational platforms.
+- Design a user-friendly (interface or integration method) to incorporate within GPT's response system. _(can I call GPT from my own code/website? What options do I have for this?)_
+- Validate the effectiveness of the override system through testing.
 
 ### Contributors:
 - Dev: Jess Houghton
