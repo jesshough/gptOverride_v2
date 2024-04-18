@@ -1,0 +1,2 @@
+- Links to more detailed documentation, such as API reference guides, usage examples, or tutorials.
+- Answers to frequently asked questions about the project, including troubleshooting tips and common issues.
