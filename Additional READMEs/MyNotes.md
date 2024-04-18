@@ -24,6 +24,7 @@ Process, Progress, & Thoughts - Documentation Space
 
 **Links:**
 - [Context-Aware Knowledge Graph Chatbot With GPT-4 and Neo4j (Cypher)](https://medium.com/neo4j/context-aware-knowledge-graph-chatbot-with-gpt-4-and-neo4j-d3a99e8ae21e)
+  - [GitHub Code Examples](https://github.com/tomasonjo/NeoGPT-Recommender/tree/main)
 - [Azure OpenAI Completion API vs Chat Completion API – Demystifying the Differences!](https://www.linkedin.com/pulse/azure-openai-completion-api-vs-chat-demystifying-qirpc/)
   - This explanation confirms I'll want to use OpenAI's Chat Completion API (also mentioned in the Medium link) if I can!
 - [OpenAI Models](https://platform.openai.com/docs/models/overview)
