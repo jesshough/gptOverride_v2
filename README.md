@@ -1,10 +1,13 @@
 # ChatGPT Override Project
 
 ### Overview & Goal:
-This project aims to create an enhancement in GPT capabilities by providing the ability to override responses when they are contextually inaccurate. The goal is to provide a solution for situations where a user's input context may be open to interpretation, potentially resulting in responses from GPT that are ambiguous, misleading, or contextually incorrect. 
+This project aims to enhance GPT capabilities by providing the ability to override responses when they are contextually inaccurate. The goal is to provide a solution for situations where a user's input context may be open to interpretation, potentially resulting in responses from GPT that are ambiguous, misleading, or contextually incorrect. 
 
-### Use Case Example:
-A company employee asks GPT questions about an internal tool, only to receive a response regarding an external tool GPT found online that happened to have the same name.
+### Use Case Examples:
+- **Customer Support:** To ensure accurate and relevant responses.
+- **Educational Platforms:** Tailoring responses to match course curriculum & student knowledge levels.
+- **Technical Documentation:** Providing relevant, precise, and up-to-date information.
+- **Company Knowledge Bases:** Prevent responses referencing outdated or unrelated external information when inquiring about internal company topics.
 
 ### Project Goals:
 - Develop an ML model that analyzes ChatGPT's responses and provides overrides when necessary. _(should this be in the form of a suggestion or should it just make a call?)_
