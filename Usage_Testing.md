@@ -1,0 +1,2 @@
+- Detailed instructions on how to use the project, including command-line options, configuration settings, and usage examples.
+- Guidance on how to run tests and contribute new tests to the project.
