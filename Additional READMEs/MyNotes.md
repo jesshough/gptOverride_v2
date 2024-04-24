@@ -21,13 +21,14 @@
 - [OpenAI Models](https://platform.openai.com/docs/models/overview)
 --------------------
 ### Questions:
-- Is a project like this applicable to solving problems like hallucinations?
-- Once I get the project to a place where I can see if it is choosing the context correctly or not, is the next step to improve the model or the dataset? And if it's just to improve the model, would any improved model only work on the exact dataset that I trained it on? Or would that model be usable on other datasets? _I assume the answers to these questions get into the purpose of AI models and the tasks of people working in AI in general, but I want to make sure I have a good understanding of this._
-- What type of dataset should I look for? One that contains tons of different contexts or one that has info on the same topic? Because I feel like GPT already does a good job of keeping the conversation on-topic once it's already there. But the point of this project is to help GPT get on topic quickly / on the first try, right?
+1. Is the point of this project to help get GPT on-topic and quickly? Or is the point to prevent it from getting off-topic for the remainder of the conversation after the point where you get GPT to the correct context?
+    - Latter: GPT has the Chat Completion API that remembers the entire conversation so you don't have to be specific in every one of your prompts. How would I be able to do a better job than GPT?
+    - Former: Are we hoping to have GPT be able to recognize context clues before you even give it a prompt? Like a company VPN, a school wifi, etc? Or will this type of project need to be tailored for a pretty specific use case and dataset like for a specific company or a school or something? In which case you would start the convo by connecting it to your situation's applicable data and from there it should always give you on-topic info?
 
-- Is the point of this project to help get GPT on-topic and quickly? Or is the point to prevent it from getting off-topic for the remainder of the conversation after the point where you get GPT to the correct context? If it's the latter, GPT has the Chat Completion API that remembers the entire conversation so you don't have to be specific in every one of your prompts. How would I be able to do a better job than GPT? If it's the former, are we hoping to have GPT be able to reconize context clues before you even give it a prompt? Like a company VPN, a school wifi, etc? Or would the goal for this type of system be for a single-use case? Meaning that we can make a GPT override for a company to use internally, but it would be a very different product from the one we would make for a student education platform?
+2. I've done a lot of reading on conversational models and smarter searches using Cypher and knowledge maps, but I assume the actual measure of a high-performing model depends on a decent amount on the data being good, so where can I get a dataset that has information like this with helpful attributes for accurate testing?
+    - Follow up: What type of dataset should I look for? One that contains tons of different contexts (so that I can try to trick it into changing the subject) or one that has info on the same topic (so that I can ask it vague questions and see if it still performs well)? 
 
-**- Clean up these questions, make another readme specifically for questions and put them there. Then add Mark to this repo. Go back through GPT and the aritcles I'm reading to remember all the questions I have.**
+3. Is a project like this applicable to solving problems like hallucinations?
 
 
 
