@@ -1,19 +1,32 @@
 # ChatGPT Override Project
 
 ### Overview & Purpose:
-The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While GPT provides impressive responses, it may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. This project aims to address this issue by providing the ability to override potentially off-topic GPT responses, improving user experience and trust in AI conversational platforms.
+The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While large models like ChatGPT provide impressive responses, they may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. The goal of this project is to build an understanding of prompt engineering and identify methods for improving the contextual accuracy of AI chatbots. By exploring AI context and hallucination challenges through experimentation with response overrides, this project ultimately aims to discover ways of enhancing user experience and trust in AI conversational platforms. _This might be too bold of a sentence. Isn't the point of this project just for me to learn and show I can apply principles of prompt engineering?_
+
+Prompt engineering project that improves hallucinations
 
 ### This Project's Use Case:
+For an AI chatbot to accurately be aware of the context of a user's prompts, regardless of content clues, it will need to be specialized in a given area, and therefore be an AI chatbot tailored for conversations on a specific topic. For this project, I have chosen the following use case:
 _still deciding, but here are ideas_
-- Idea 1
 - Idea 2
 - Idea 3
 
 ### Project Goals:
-- Develop an ML model that analyzes GPT's responses and provides _(or suggests?)_ overrides when necessary.
-- Incorporate contextual understanding and field-specific knowledge to enhance GPT's NL processing abilities.
-- Design a user-friendly (interface or integration method) to incorporate within GPT's response system. _(can I call GPT from my own code/website (localhost?)? What options do I have for this?)_
-- Validate the effectiveness of the override system through testing.
+_I'll elaborate/make these sound better later_
+- Implement a vector database
+- Pick a model (not GPT - something smaller)
+- Give it more prompts to solicit a better response
+- Start with no prompt engineering, then do a bit, then do 2-3x and show improvement
+  - maybe 20 questions per round
+ 
+- Learn and understand:
+  - prompt engineering with LLMs
+  - what a vector DB is & how to use it
+  - examples of good and bad tests
+  - is load running a good scenario
+  - fine-tuning vs. prompt engineering
+ 
+- Success: how many questions did it get right before hallucinating 
 
 ### Contributors:
 - Dev: Jess Houghton
