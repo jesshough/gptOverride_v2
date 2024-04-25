@@ -27,7 +27,7 @@
 ### Questions:
 
 1. Is a project like this applicable to solving problems like hallucinations?
-  - Yes
+  - Yes! This is a prompt engineering project that works to improve hallucinations
 
 
 
