@@ -10,6 +10,10 @@
 - Created a repo for this project.
 - Created & filled out a main README for project overview and goals.
 - Created a folder containing READMEs for Documentation & FAQ, Installation & Setup, and Usage & Testing (to be filled out as I go).
+
+**April 22nd - 26th:**
+- Met with Mark to confirm project specs
+- Updated relevant markdown files to correctly describe project
 --------------------
 ### Notes & Links:
 - From Google:
