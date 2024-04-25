@@ -3,7 +3,7 @@
 ### Overview & Purpose:
 The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While large models like ChatGPT provide impressive responses, they may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. The goal of this project is to build an understanding of prompt engineering and identify methods for improving the contextual accuracy of AI chatbots. By exploring AI context and hallucination challenges through experimentation with response overrides, this project ultimately aims to discover ways of enhancing user experience and trust in AI conversational platforms. _This might be too bold of a sentence. Isn't the point of this project just for me to learn and show I can apply principles of prompt engineering?_
 
-Prompt engineering project that improves hallucinations
+Prompt engineering project that works to improve hallucinations
 
 ### This Project's Use Case:
 For an AI chatbot to accurately be aware of the context of a user's prompts, regardless of content clues, it will need to be specialized in a given area, and therefore be an AI chatbot tailored for conversations on a specific topic. For this project, I have chosen the following use case:
