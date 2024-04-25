@@ -21,14 +21,18 @@
 - [OpenAI Models](https://platform.openai.com/docs/models/overview)
 --------------------
 ### Questions:
-1. Is the point of this project to help get GPT on-topic and quickly? Or is the point to prevent it from getting off-topic for the remainder of the conversation after the point where you get GPT to the correct context?
-    - Latter: GPT has the Chat Completion API that remembers the entire conversation so you don't have to be specific in every one of your prompts. How would I be able to do a better job than GPT?
-    - Former: Are we hoping to have GPT be able to recognize context clues before you even give it a prompt? Like a company VPN, a school wifi, etc? Or will this type of project need to be tailored for a pretty specific use case and dataset like for a specific company or a school or something? In which case you would start the convo by connecting it to your situation's applicable data and from there it should always give you on-topic info?
 
-2. I've done a lot of reading on conversational models and smarter searches using Cypher and knowledge maps, but I assume the actual measure of a high-performing model depends on a decent amount on the data being good, so where can I get a dataset that has information like this with helpful attributes for accurate testing?
-    - Follow up: What type of dataset should I look for? One that contains tons of different contexts (so that I can try to trick it into changing the subject) or one that has info on the same topic (so that I can ask it vague questions and see if it still performs well)? 
+1. Is a project like this applicable to solving problems like hallucinations?
+  - Yes
 
-3. Is a project like this applicable to solving problems like hallucinations?
+
+
+--------------------
+### This is what I had for project goals before clarifying project specs. Keeping for reference:
+- Develop an ML model that analyzes GPT's responses and provides _(or suggests?)_ overrides when necessary.
+- Incorporate contextual understanding and field-specific knowledge to enhance GPT's NL processing abilities.
+- Design a user-friendly (interface or integration method) to incorporate within GPT's response system. _(can I call GPT from my own code/website (localhost?)? What options do I have for this?)_
+- Validate the effectiveness of the override system through testing.
 
 
 
