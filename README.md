@@ -3,11 +3,11 @@
 ### Overview & Purpose:
 The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While GPT provides impressive responses, it may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. This project aims to address this issue by providing the ability to override potentially off-topic GPT responses, improving user experience and trust in AI conversational platforms.
 
-### Use Case Examples:
-- **Customer Support:** To ensure accurate and relevant responses.
-- **Educational Platforms:** Tailoring responses to match course curriculum & student knowledge levels.
-- **Technical Documentation:** Providing relevant, precise, and up-to-date information.
-- **Company Knowledge Bases:** Prevent responses referencing outdated or unrelated external information when inquiring about internal company topics.
+### This Project's Use Case:
+_still deciding, but here are ideas_
+- Idea 1
+- Idea 2
+- Idea 3
 
 ### Project Goals:
 - Develop an ML model that analyzes GPT's responses and provides _(or suggests?)_ overrides when necessary.
@@ -19,3 +19,8 @@ The integration of AI chatbots is becoming more prevalent across industries, par
 - Dev: Jess Houghton
 - Mentor: Mark Farra
 
+### Other Potential Use Case Examples:
+- **Customer Support:** To ensure accurate and relevant responses.
+- **Educational Platforms:** Tailoring responses to match course curriculum & student knowledge levels.
+- **Technical Documentation:** Providing relevant, precise, and up-to-date information.
+- **Company Knowledge Bases:** Prevent responses referencing outdated or unrelated external information when inquiring about internal company topics.
