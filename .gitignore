@@ -4,4 +4,6 @@ Data/
 # Ignore specific CSV files
 *.csv
 
+env/
+
 
