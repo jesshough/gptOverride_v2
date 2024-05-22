@@ -1,13 +1,10 @@
 # ChatGPT Override Project
 
 ### Overview & Purpose:
-The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While large models like ChatGPT provide impressive responses, they may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. My goal for this project is to build an understanding of prompt engineering, explore hallucination challenges, and learn about methods for improving the contextual accuracy of AI chatbots.
+The integration of AI chatbots is becoming more prevalent across industries, particularly for tasks like customer support, virtual assistance, and knowledge management. While large models like ChatGPT provide impressive responses, they may occasionally produce contextually incorrect or irrelevant responses, leading to user frustration or misinformation. Similarly, models like these are only trained on public information, making them unsuited for answering questions about private or situationally-specific information. For this project, I will use knowledge embedding to override GPT responses so that they remain relevant to the topic of the training data, regardless of the prompt. My goal for this project is to build an understanding of prompt engineering, explore hallucination challenges, and learn about methods for improving the contextual accuracy of AI chatbots.
 
 ### This Project's Use Case:
-For an AI chatbot to accurately be aware of the context of a user's prompts, regardless of content clues, it will need to be specialized in a given area, and therefore be an AI chatbot tailored for conversations on a specific topic. For this project, I have chosen the following use case:
-_still deciding, but here are ideas_
-- Idea 2
-- Idea 3
+I developed a chatbot that specializes in Python-specific advice and solutions. Trained on a dataset of Python Stack Overflow question-and-answer pairs, this chatbot's primary objective is to deliver accurate and contextually relevant advice, even when faced with vague or distracting user prompts.
 
 ### Project Goals:
 _I'll elaborate/make these sound better later_
