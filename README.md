@@ -6,22 +6,24 @@ The integration of AI chatbots is becoming more prevalent across industries, par
 ### This Project's Use Case:
 I developed a chatbot that specializes in Python-specific advice and solutions. Trained on a dataset of Python Stack Overflow question-and-answer pairs, this chatbot's primary objective is to deliver accurate and contextually relevant advice, even when faced with vague or distracting user prompts.
 
-### Project Goals:
-_I'll elaborate/make these sound better later_
-- Implement a vector database
-- Pick a model (not GPT - something smaller)
-- Give it more prompts to solicit a better response
+### Topics Explored in this Project:
+- Loading and Preprocessing CSV Data
+- Vectorizing Data
+- Running Similarity Searches
+- LLMChain and Prompt Engineering
+- Retrieval Augmented Generation (RAG)
+
+Other topic ideas:
 - Start with no prompt engineering, then do a bit, then do 2-3x and show improvement
   - maybe 20 questions per round
+- How many questions did it get right before hallucinating 
  
 - Learn and understand:
   - prompt engineering with LLMs
   - what a vector DB is & how to use it
   - examples of good and bad tests
-  - is load running a good scenario
+  - Is load running a good scenario
   - fine-tuning vs. prompt engineering
- 
-- Success: how many questions did it get right before hallucinating 
 
 ### Contributors:
 - Dev: Jess Houghton
