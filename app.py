@@ -6,10 +6,8 @@
 # Streamlit: streamlit run app.py
 # Control C to quit
 
-import time
 import streamlit as st
 import pandas as pd
-import chardet
 import os
 from langchain_community.document_loaders import CSVLoader
 from langchain_community.vectorstores import FAISS
@@ -19,11 +17,9 @@ from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from dotenv import load_dotenv
 import faiss
-from langchain_community.docstore.in_memory import InMemoryDocstore
 
 # Load environment variables from .env file
 load_dotenv()
-#adding a testing comment here
 
 # ----------------------------------------
 # Step 1: Load and preprocess the CSV data
@@ -34,7 +30,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Construct the file path to SOPythonData.csv
 csv_file_path = os.path.join(current_dir, 'Data', 'SOPythonData.csv')
-print(csv_file_path)
+#print(csv_file_path)
 
 # My column names got cut out of the CSV file, so I'm manually specifying:
 column_names = ['Id', 'q_Score', 'q_Title', 'q_Body', 'a_Score', 'a_Body', 't_Tag']  # Replace with actual column names
@@ -70,15 +66,15 @@ documents = loader.load()
 openai_api_key = os.getenv('OPENAI_API_KEY')
 
 # Validate that the API key is correctly loaded
-if openai_api_key is None:
-    raise ValueError("The OpenAI API key is not found. Make sure it is set in the .env file and make sure money is loaded.")
+# if openai_api_key is None:
+#     raise ValueError("The OpenAI API key is not found. Make sure it is set in the .env file and make sure money is loaded.")
 
 # Proceed with LangChain processing
 embeddings = OpenAIEmbeddings(api_key=openai_api_key)
 db = FAISS.from_documents(documents, embeddings)
 
 # Example usage
-print(documents[0])
+# print(documents[0])
 
 # -----------------------------------------------
 # Step 3: Create a function for similarity search
@@ -89,7 +85,7 @@ def retrieve_info(query):
     # too big - be aware of the contenxt limit for LLM
     page_contents_array = [doc.page_content for doc in similar_response] # can't print similar_response directly
     # because it will also have metadata, titles, etc. that we don't need. So this extracts just the data that we need.
-    print(page_contents_array)
+    # print(page_contents_array)
     return page_contents_array
 
 # # This is just an example. At this point in the code, it should just return whatever q&a pair it thinks
@@ -113,7 +109,7 @@ template = """
 You are a technical assistant who gives Python advice and you respond to questions
 asked in a Python forum. 
 I will share a user's question with you and you will give me the best answer that should be used
-to repond to the user's question(s), 
+to respond to the user's question(s), 
 and you will follow ALL of the rules below:
 
 1/ Even if a user doesn't specify which language they are asking about, you need to assume it is Python.
@@ -173,19 +169,19 @@ print(answer)
 # Step 6: Build an app with streamlit (so we can share it)
 # --------------------------------------------------------
 
-def main():
-    st.set_page_config(
-        page_title="Python Advice Generator", page_icon=":bird:")
+# def main():
+#     st.set_page_config(
+#         page_title="Python Advice Generator", page_icon=":bird:")
 
-    st.header("Python Advice Generator :bird:")
-    question = st.text_area("User Question")
+#     st.header("Python Advice Generator :bird:")
+#     question = st.text_area("User Question")
 
-    if question:
-        st.write("Generating Python Advice...")
+#     if question:
+#         st.write("Generating Python Advice...")
 
-        answer = generate_response(question)
+#         answer = generate_response(question)
 
-        st.info(answer)
+#         st.info(answer)
 
-if __name__ == '__main__':
-    main()
+# if __name__ == '__main__':
+#     main()
