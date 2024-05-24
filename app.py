@@ -2,6 +2,7 @@
 # Activate virtual environment: source env/bin/activate
 # At the end: source deactivate
 
+
 # Streamlit: streamlit run app.py
 # Control C to quit
 
@@ -38,8 +39,8 @@ print(csv_file_path)
 column_names = ['Id', 'q_Score', 'q_Title', 'q_Body', 'a_Score', 'a_Body', 't_Tag']  # Replace with actual column names
 
 # Read the CSV file in chunks
-chunk_size = 1000  # Start with a smaller chunk size
-num_chunks = 5   # Number of chunks to read and process
+chunk_size = 1000
+num_chunks = 50   # Number of chunks to read and process
 
 chunks = []
 for i, chunk in enumerate(pd.read_csv(csv_file_path, encoding='MacRoman', names=column_names, header=0, chunksize=chunk_size)):
@@ -78,7 +79,10 @@ db = FAISS.from_documents(documents, embeddings)
 # Example usage
 print(documents[0])
 
+# -----------------------------------------------
 # Step 3: Create a function for similarity search
+# -----------------------------------------------
+
 def retrieve_info(query):
     similar_response = db.similarity_search(query, k=3) # 3 results most similar to the query, don't make it
     # too big - be aware of the contenxt limit for LLM
@@ -157,7 +161,7 @@ def generate_response(question):
 
 question = """
 
-How can I get a preview of a pdf on my Windows computer? I want the preview to be a jpeg.
+I have an AWS EC2 instance. Can I get details about it?
 
 """
 
