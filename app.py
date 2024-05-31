@@ -165,9 +165,9 @@ I have an AWS EC2 instance. Can I get details about it?
 answer = generate_response(question)
 print(answer)
 
-# --------------------------------------------------------
-# Step 6: Build an app with streamlit (so we can share it)
-# --------------------------------------------------------
+# -----------------------------------
+# Step 6: Build an app with streamlit
+# -----------------------------------
 
 # def main():
 #     st.set_page_config(
