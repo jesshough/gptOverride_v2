@@ -12,11 +12,6 @@ I developed a chatbot that specializes in Python-specific advice and solutions. 
 - Running Similarity Searches
 - LLMChain and Prompt Engineering
 - Retrieval Augmented Generation (RAG)
-
-Other topic ideas:
-- Start with no prompt engineering, then do a bit, then do 2-3x and show improvement
-  - maybe 20 questions per round
-- How many questions did it get right before hallucinating 
  
 - Learn and understand:
   - prompt engineering with LLMs
