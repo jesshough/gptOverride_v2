@@ -14,11 +14,10 @@ I developed a chatbot that specializes in Python-specific advice and solutions. 
 - Retrieval Augmented Generation (RAG)
  
 - Learn and understand:
-  - prompt engineering with LLMs
-  - what a vector DB is & how to use it
-  - examples of good and bad tests
-  - Is load running a good scenario
-  - fine-tuning vs. prompt engineering
+  - Prompt engineering with LLMs
+  - What a vector DB is & how to use it
+  - Examples of good and bad tests
+  - Fine-tuning vs. prompt engineering
 
 ### Contributors:
 - Dev: Jess Houghton
